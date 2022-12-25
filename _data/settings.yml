@@ -1,10 +1,10 @@
 basic_settings:
   site_title: ObjectFolder
-  favicon_image: #! [ObjectFolderTODO] /assets/img/behavior/behicon.png
+  favicon_image: /assets/img/objectfolder_logo_2.png
 
 header_settings:
-  logo_image: #! [ObjectFolderTODO] /assets/img/behavior/b02.png
-  mobile_logo_image: #! [ObjectFolderTODO] /assets/img/behavior/b02.png
+  logo_image: /assets/img/objectfolder_logo_2.png
+  mobile_logo_image: assets/img/objectfolder_logo_2.png
   # Choose a color for your header [blue, dark, light].
   theme: light
   # If the page has a featured image, it turns transparent if allow_transparent is set to "yes".
@@ -34,17 +34,32 @@ menu_settings:
     - title: 'Home'
       url: /
 
-    - title: 'Dataset'
+    - title: 'ObjectFolder-Real'
       submenu_items:
-      - title: 'ObjectFolder 2.0'
-        url: /objectfolder2-0
+      - title: 'Download'
+        url: /objectfolder-real-download
         icon: # TODO
-      - title: 'ObjectFolder-Real'
+      - title: 'Interactive Demos'
         url: /objectfolder-real
+        icon: # TODO
+    
+    - title: 'ObjectFolder 2.0'
+      submenu_items:
+      - title: 'Download'
+        url: /objectfolder2-0-download
+        icon: # TODO
+      - title: 'Code'
+        url: https://github.com/rhgao/ObjectFolder
+        icon: # TODO
+      - title: 'Supplementary Video'
+        url: https://www.youtube.com/watch?v=e5aToT3LkRA
         icon: # TODO
 
     - title: 'Benchmarks'
       submenu_items:
+      - title: 'Code'
+        url: https://github.com/objectfolder
+        icon: # TODO
       - title: 'Object Recognition'
         url: /benchmark-recognition
         icon: # TODO
@@ -55,8 +70,8 @@ menu_settings:
         url: /benchmark-manipulation
         icon: # TODO
 
-    - title: 'Publications'
-      url: /publications
+    # - title: 'Publications'
+    #   url: /publications
 
 footer_settings:
   footer_tagline: ObjectFolder is developed by the Stanford Vision and Learning Lab and collaborators.

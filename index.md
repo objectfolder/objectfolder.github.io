@@ -1,4 +1,4 @@
---- 
+---
 title: 'ObjectFolder'
 subtitle: 'A multisensory, object-centric dataset and benchmark suite containing vision, acoustic, and tactile measurements of real & neural objects'
 # description: 
@@ -17,3 +17,5 @@ To be done.
 {% include components/features/objectfolder_benchmarks.html %}
 
 {% include components/features/objectfolder_team.html %}
+
+{% include components/features/objectfolder_publications.html %}
