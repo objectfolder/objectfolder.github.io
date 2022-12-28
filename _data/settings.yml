@@ -1,6 +1,6 @@
 basic_settings:
   site_title: ObjectFolder
-  favicon_image: /assets/img/objectfolder_logo_1.png
+  favicon_image: /assets/img/objectfolder_logo.png
 
 header_settings:
   logo_image: /assets/img/objectfolder_logo_2.png
