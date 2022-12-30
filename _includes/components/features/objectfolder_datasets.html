@@ -10,12 +10,28 @@
     </div>
     <div class="row justify-content-center align-items-center">
       <div class="col">
-        <div class="info info-horizontal bg-white">
+        <div class="info info-horizontal text-white">
           <div class="description pl-4">
             <h4 class="title text-warning">ObjectFolder-Real</h4>
 
             <p class="description opacity-8">
-              <li>To be done</li>
+              <li>100 real-world household objects.</li>
+              <li>A tailored data collection pipeline for each modality.</li>
+              <li>
+                For vision, we scan the 3D meshes of objects in a dark room and
+                record HD videos of each object rotating in a lightbox.
+              </li>
+              <li>
+                For audio, we build a professional anechoic chamber with a
+                tailored object platform and then collect impact sounds by
+                striking the objects at different surface locations with an
+                impact hammer.
+              </li>
+              <li>
+                For touch, we equip a Franka Emika Panda robot arm with a
+                GelSight robotic finger and collect tactile readings at the
+                exact surface locations where impact sounds are collected.
+              </li>
             </p>
             <a href="" class="text-warning">Explore ObjectFolder-Real</a>
           </div>
@@ -25,9 +41,8 @@
       <div class="col">
         <img
           class="ml-lg-5"
-          src="{{ '/assets/img/behavior/b1k-scenes.png' | relative_url }}"
-          height="295px"
-          width="500px" />
+          src="{{ '/assets/img/objectfolder/ObjectFolder-Real.jpg' | relative_url }}"
+          width="400px" />
       </div>
 
       <div class="w-100"></div>
@@ -35,11 +50,23 @@
       <br />
 
       <div class="col">
-        <div class="info info-horizontal bg-white">
+        <div class="info info-horizontal text-white">
           <div class="description pl-4">
             <h4 class="title text-info">ObjectFolder 2.0</h4>
             <p class="description opacity-8">
-              <li>To be done.</li>
+              <li>1,000 multisensory neural objects.</li>
+              <li>
+                Each neural object is represented by an Object File, a compact
+                neural network that encodes the object's intrinsic visual,
+                acoustic, and tactile sensory data.
+              </li>
+              <li>
+                Querying the Object File with extrinsic parameters (e.g., camera
+                viewpoint and lighting conditions for vision, impact location
+                and strength for audio, contact location and gel deformation for
+                touch), we can obtain the corresponding sensory signal at a
+                particular location or condition.
+              </li>
             </p>
             <a
               href="https://ai.stanford.edu/~rhgao/objectfolder2.0/"
@@ -52,9 +79,8 @@
       <div class="col">
         <img
           class="ml-lg-5"
-          src="{{ '/assets/img/behavior/hungif.gif' | relative_url }}"
-          height="270px"
-          width="500px" />
+          src="{{ '/assets/img/objectfolder/ObjectFolder2.png' | relative_url }}"
+          width="400px" />
       </div>
     </div>
   </div>
