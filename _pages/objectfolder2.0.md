@@ -4,5 +4,5 @@ title: ObjectFolder 2.0
 featured_image: 
 ---
 
-### TODO
+### Coming soon.
 

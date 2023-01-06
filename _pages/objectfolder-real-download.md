@@ -4,5 +4,5 @@ title: Download Instruction of ObjectFolder-Real
 featured_image: 
 ---
 
-### TODO
+### Coming soon.
 
