@@ -3,7 +3,8 @@ title: 'ObjectFolder'
 subtitle: 'A dataset of multisensory neural and real objects and a benchmark suite for multisensory object-centric learning, centered around object recognition, reconstruction, and manipulation with sight, sound, and touch.'
 # description: 
 # featured_image: /assets/img/behavior/b1k-feats/tasks2.png
-featured_video: /assets/img/objectfolder/overview_video.mp4
+# featured_video: /assets/img/objectfolder/overview_video.mp4
+featured_video: /assets/img/objectfolder/objectfolder_website_demo_video.mp4
 ---
 
 ##### Overview.
