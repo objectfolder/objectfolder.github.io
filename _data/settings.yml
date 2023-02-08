@@ -42,6 +42,9 @@ menu_settings:
       - title: 'Interactive Demos'
         url: /objectfolder-real
         icon: # TODO
+      - title: 'Explore Samples'
+        url: /explore-samples
+        icon: # TODO
     
     - title: 'ObjectFolder 2.0'
       submenu_items:
