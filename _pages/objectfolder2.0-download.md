@@ -31,15 +31,15 @@ tar -xvf ObjectFolder1-100.tar.gz
 Use the following command to download ObjectFiles with KiloOSF that supports real-time visual rendering at the expense of larger model size:
 ```sh
 wget https://download.cs.stanford.edu/viscam/ObjectFolder/ObjectFolder1-100KiloOSF.tar.gz
-tar -xvf ObjectFolder101-100KiloOSF.tar.gz
+tar -xvf ObjectFolder1-100KiloOSF.tar.gz
 ```
 Similarly, use the following command to download objects from 101-1000:
 ```sh
+# replace X with a value in [100,200,300,400,500,600,700,800,900]
 wget https://download.cs.stanford.edu/viscam/ObjectFolder/ObjectFolder[X+1]-[X+100].tar.gz
 wget https://download.cs.stanford.edu/viscam/ObjectFolder/ObjectFolder[X+1]-[X+100]KiloOSF.tar.gz
 tar -xvf ObjectFolder[X+1]-[X+100].tar.gz
 tar -xvf ObjectFolder[X+1]-[X+100]KiloOSF.tar.gz
-# replace X with a value in [100,200,300,400,500,600,700,800,900]
 ```
 
 ### Rendering Visual, Acoustic, and Tactile Sensory Data 

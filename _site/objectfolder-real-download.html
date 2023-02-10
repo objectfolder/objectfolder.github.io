@@ -190,7 +190,36 @@
     
 
     <div id="main" class="container">
-      <h3 id="coming-soon">Coming soon.</h3>
+      <h3 id="about-objectfolder-real">About ObjectFolder Real</h3>
+
+<h3 id="dataset-download-and-preparation">Dataset Download and Preparation</h3>
+
+<p>Use the following command to download the visual videos of the 100 objects:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/vision/videos_1_100.tar.gz
+<span class="nb">tar</span> <span class="nt">-xvf</span> videos_1_100.tar.gz
+</code></pre></div></div>
+
+<p>Use the following command to download the acoustic data of the first 10 objects:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/audio/audio_data_1_10.tar.gz
+<span class="nb">tar</span> <span class="nt">-xvf</span> audio_data_1_10.tar.gz
+</code></pre></div></div>
+
+<p>Use the following command to download the tactile data of the first 10 objects:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/tactile/tactile_data_1_10.tar.gz
+<span class="nb">tar</span> <span class="nt">-xvf</span> tactile_data_1_10.tar.gz
+</code></pre></div></div>
+
+<p>Similarly, use the following command to download acoustic/tactile data from 11-100:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># replace X with a value in [10,20,30,40,50,60,70,80,90]</span>
+wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/audio/audio_data_[X+1]_[X+10].tar.gz
+<span class="nb">tar</span> <span class="nt">-xvf</span> audio_data_[X+1]_[X+10].tar.gz
+wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/tactile/tactile_data_[X+1]_[X+10].tar.gz
+<span class="nb">tar</span> <span class="nt">-xvf</span> tactile_data_[X+1]_[X+10].tar.gz
+</code></pre></div></div>
 
 
     </div>
