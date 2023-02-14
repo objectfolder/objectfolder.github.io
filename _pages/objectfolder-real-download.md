@@ -1,10 +1,10 @@
 ---
-title: Download Instruction of ObjectFolder-Real
+title: ObjectFolder-Real Download Instruction
 # subtitle: 
-featured_image: 
+featured_image: /assets/img/objectfolder/ObjectFolder-Real.jpg
 ---
 
-### About ObjectFolder Real
+### About ObjectFolder-Real
 
 ### Dataset Download and Preparation
 
