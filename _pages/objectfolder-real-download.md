@@ -5,6 +5,7 @@ featured_image: /assets/img/objectfolder/ObjectFolder-Real.jpg
 ---
 
 ### About ObjectFolder-Real
+The visual data for each object include three high-quality 3D meshes of different resolutions and an HD video recording of the object rotating in a lightbox; The acoustic data for each object include impact sound recordings recorded at 30–50 points of the object, each of which is 5s long and is accompanied by the coordinate of the striking location on the object mesh, ground-truth contact force profile, and the accompanying video for the impact. The tactile data for each object include tactile readings at the same 30–50 points of the object, with each tactile reading as a video of the tactile RGB images that record the entire gel deformation process and is accompanied by two videos of the contact process from an in-hand camera and a third-view camera.
 
 ### Dataset Download and Preparation
 
