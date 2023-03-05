@@ -9,6 +9,20 @@ The ObjectFolder Real dataset contains multisensory data collected from 100 real
 
 ### Dataset Download and Preparation
 
+Use the following command to download the 3D meshes of the 100 objects (you may choose original or simplified versions):
+
+```sh
+# ~16K faces per mesh
+wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/mesh/mesh_16k.tar.gz
+tar -xvf mesh_16k.tar.gz
+# ~64K faces per mesh
+wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/mesh/mesh_64k.tar.gz
+tar -xvf mesh_64k.tar.gz
+# Full
+wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/mesh/mesh_full.tar.gz
+tar -xvf mesh_full.tar.gz
+```
+
 Use the following command to download the visual videos of the 100 objects:
 
 ```sh
