@@ -200,8 +200,22 @@
 
     <div id="main" class="container">
       <h3 id="about-objectfolder-real">About ObjectFolder-Real</h3>
+<p>The ObjectFolder Real dataset contains multisensory data collected from 100 real-world household objects. The visual data for each object include three high-quality 3D meshes of different resolutions and an HD video recording of the object rotating in a lightbox; The acoustic data for each object include impact sound recordings recorded at 30–50 points of the object, each of which is 6s long and is accompanied by the coordinate of the striking location on the object mesh, ground-truth contact force profile, and the accompanying video for the impact. The tactile data for each object include tactile readings at the same 30–50 points of the object, with each tactile reading as a video of the tactile RGB images that record the entire gel deformation process and is accompanied by two videos of the contact process from an in-hand camera and a third-view camera.</p>
 
 <h3 id="dataset-download-and-preparation">Dataset Download and Preparation</h3>
+
+<p>Use the following command to download the 3D meshes of the 100 objects (you may choose original or simplified versions):</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># ~16K faces per mesh</span>
+wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/mesh/mesh_16k.tar.gz
+<span class="nb">tar</span> <span class="nt">-xvf</span> mesh_16k.tar.gz
+<span class="c"># ~64K faces per mesh</span>
+wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/mesh/mesh_64k.tar.gz
+<span class="nb">tar</span> <span class="nt">-xvf</span> mesh_64k.tar.gz
+<span class="c"># Full</span>
+wget https://download.cs.stanford.edu/viscam/ObjectFolder_Real/mesh/mesh_full.tar.gz
+<span class="nb">tar</span> <span class="nt">-xvf</span> mesh_full.tar.gz
+</code></pre></div></div>
 
 <p>Use the following command to download the visual videos of the 100 objects:</p>
 
