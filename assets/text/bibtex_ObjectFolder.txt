@@ -1,0 +1,6 @@
+@inproceedings{gao2021ObjectFolder,
+  title = {ObjectFolder: A Dataset of Objects with Implicit Visual, Auditory, and Tactile Representations},
+  author = {Gao, Ruohan and Chang, Yen-Yu and Mall, Shivani and Fei-Fei, Li and Wu, Jiajun},
+  booktitle = {CoRL},
+  year = {2021}
+}

@@ -1,0 +1,7 @@
+@inproceedings{gao2022objectfolder,
+  title={Objectfolder 2.0: A multisensory object dataset for sim2real transfer},
+  author={Gao, Ruohan and Si, Zilin and Chang, Yen-Yu and Clarke, Samuel and Bohg, Jeannette and Fei-Fei, Li and Yuan, Wenzhen and Wu, Jiajun},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={10598--10608},
+  year={2022}
+}
