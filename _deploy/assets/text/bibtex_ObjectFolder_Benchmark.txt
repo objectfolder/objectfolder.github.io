@@ -1,0 +1,7 @@
+@inproceedings{gao2023objectfolder,
+  title={The OBJECTFOLDER BENCHMARK: Multisensory Learning with Neural and Real Objects},
+  author={Gao, Ruohan and Dou, Yiming and Li, Hao and Agarwal, Tanmay and Bohg, Jeannette and Li, Yunzhu and Fei-Fei, Li and Wu, Jiajun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={17276--17286},
+  year={2023}
+}
